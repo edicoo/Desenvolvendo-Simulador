@@ -1,98 +1,143 @@
-📄 App Simulador de Entrevista de Tecnologia
-Autor: Édico Almeida | Desafio de Projeto DIO – Vibe Coding
+App Simulador de Entrevista de Tecnologia do Édico Almeida com Vibe Coding.
 
+Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um Agente de IA baseado, um simulador de processo seletivo para vaga de tecnologia.
 
-Este projeto foi desenvolvido como um Desafio de Projeto da DIO em parceria com Vibe Coding, utilizando Lovable e Copilot Web.
-A proposta é criar um Agente de IA simulador de processo seletivo para vagas de tecnologia.
+PRD definido no Copilot Web:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+markdown
 
-
-🎯 PRD – Simulador Inteligente de Entrevista com Design Universal
+PRD - Simulador Inteligente de Entrevista com Design Universal
 
 Objetivo do Produto
-Criar um simulador de entrevistas em linguagem natural para ajudar candidatos a se prepararem para processos seletivos na área de tecnologia.
-O sistema atua como entrevistador técnico especializado, conduzindo perguntas estruturadas e fornecendo um resumo analítico ao final.
-A solução segue princípios de Design Universal, garantindo boa experiência para diferentes perfis de usuários.
+Criar um simulador de entrevistas em linguagem natural para ajudar candidatos a se prepararem para processos seletivos na área de tecnologia. O sistema atuará como um entrevistador 
+técnico especializado, conduzindo perguntas estruturadas e fornecendo um resumo analítico ao final. A solução deve seguir princípios de Design Universal, garantindo que o máximo de 
+usuários possa utilizá-la com boa experiência, independentemente de suas habilidades, contextos ou limitações.
 
 Funcionalidades Principais
-Condução de entrevistas simuladas com foco em vagas de tecnologia.
-Estruturação das perguntas em sequência lógica.
-Interação em linguagem natural, com apenas uma pergunta por vez.
-Geração de resumo analítico após confirmação explícita do usuário.
-Interface inclusiva e acessível, com linguagem clara e suporte a diferentes perfis.
+- Condução de entrevistas simuladas com foco em vagas de tecnologia.
+- Estruturação das perguntas em sequência lógica.
+- Interação em linguagem natural, com apenas uma pergunta por vez.
+- Geração de resumo analítico após confirmação explícita do usuário.
+- Interface inclusiva e acessível, com linguagem clara e suporte a diferentes perfis de usuários.
 
 Fluxo da Entrevista
-Título da vaga e propósito principal.
-Senioridade esperada e justificativa.
-Tecnologias, frameworks e práticas essenciais.
-Soft skills mais valorizadas.
+1. Título da vaga: Perguntar "Qual é o título da vaga e qual o propósito principal desse cargo?"
+2. Senioridade: Perguntar "Qual a senioridade esperada e por quê?"
+3. Stack Tecnológico: Perguntar "Quais tecnologias, frameworks e práticas são essenciais?"
+4. Soft Skills: Perguntar "Quais comportamentos ou atitudes são mais valorizados?"
+
 Após todas as respostas, o sistema aguarda confirmação do usuário para gerar o resumo analítico.
 
 Regras de Interação
-Nunca fazer mais de uma pergunta por vez.
-Só gerar o resumo após confirmação explícita.
-Iniciar sempre com:  "Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal desse cargo?"
-Garantir acessibilidade e clareza para diferentes perfis de usuários.
+- Nunca fazer mais de uma pergunta por vez.
+- Só gerar o resumo após confirmação explícita.
+- Iniciar sempre com: "Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal desse cargo?"
+- Garantir que a interação seja acessível e compreensível para diferentes perfis de usuários.
 
-📚 Conceitos Explicados
-O que é um PRD?
-Um Product Requirements Document descreve os requisitos de um produto e serve como guia para alinhar equipes.
-Inclui: objetivo, funcionalidades, fluxo de uso e regras.
-No simulador, o PRD organiza como a entrevista deve funcionar, garantindo clareza e consistência.
+---
+
+Conceitos Explicados
+
+O que é um PRD (Product Requirements Document)?
+Um PRD é um documento que descreve os requisitos de um produto. Ele serve como guia para alinhar equipes sobre o que será construído, por que e como. Normalmente inclui:
+- Objetivo do produto
+- Funcionalidades principais
+- Fluxo de uso
+- Regras e restrições
+
+No seu caso, o PRD organiza como o simulador de entrevista deve funcionar, garantindo clareza e consistência.
 
 O que é Vibe Coding?
-Prática de prototipagem rápida e leve, focada em experimentar ideias sem burocracia.
-Permite explorar conceitos, criar protótipos e aprender pela prática.
-No simulador, ajuda a ajustar o fluxo de entrevistas conforme a experiência do usuário.
+Vibe Coding é uma prática de programação e prototipagem rápida que foca em experimentar ideias de forma leve e iterativa, sem se prender a formalismos excessivos. A ideia é "sentir a vibe" do 
+problema e testar soluções de maneira prática, criativa e interativa. É útil para:
+- Explorar conceitos rapidamente
+- Criar protótipos sem burocracia
+- Aprender pela prática
+
+No contexto do simulador, o Vibe Coding ajuda você a experimentar diferentes formas de conduzir entrevistas simuladas, ajustando o fluxo conforme a experiência do usuário.
 
 O que é Design Universal?
-Conceito de design que busca criar produtos utilizáveis pelo maior número possível de pessoas.
+Design Universal é um conceito de design que busca criar produtos, serviços e ambientes que possam ser utilizados pelo maior número possível de pessoas, sem necessidade de adaptações 
+específicas. Os princípios incluem:
+- Equidade: oferecer a mesma experiência para todos.
+- Flexibilidade: permitir diferentes formas de uso.
+- Simplicidade: tornar a interface clara e intuitiva.
+- Perceptibilidade: garantir que informações sejam compreensíveis por diferentes meios (visual, auditivo, textual).
+- Tolerância ao erro: reduzir riscos e consequências de ações incorretas.
+- Baixo esforço físico e cognitivo: facilitar o uso sem exigir muito esforço.
 
-Princípios aplicados:
-Equidade
-Flexibilidade
-Simplicidade
-Perceptibilidade
-Tolerância ao erro
-Baixo esforço físico e cognitivo
+Aplicar Design Universal ao simulador significa garantir que candidatos com diferentes perfis — iniciantes ou experientes, com ou sem limitações — possam ter uma boa experiência de preparação para entrevistas.
 
-🛠️ Interações com Lovable
-Criação do agente de IA simulador de entrevistas com base no PRD.
-Resumo analítico após as perguntas respondidas.
-Continuidade da entrevista com aprofundamento dos temas.
-Feedback analítico mantido visível no chat.
-Resultado final no Lovable:  
-Preview do Projeto
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-⚙️ Funcionalidades do Agente Simulador
+Interações com Lovable:
+- Crie um agente de ia Simulador de Entrevista especializado em processo seletivo para vaga de tecnologia com base no seguinte PRD (Product Requirements Document)
 
-Entrevista Guiada
-Perguntas estruturadas em ordem lógica.
-Regra: apenas uma pergunta por vez.
+- Após o resumo analítico das perguntas respondidas, permite que o sistema continue fazendo entrevistas mais profundas de acordo com o tema já discutido.
 
-Resumo Analítico
-Geração de resumo após confirmação do usuário.
-Síntese dos pontos principais da vaga.
+- Atualizar e permitir que as perguntas sejam feitas após o quadro de resumo analítico da entrevista.
 
-Design Universal
-Interface inclusiva e acessível.
-Aplicação dos princípios de equidade, simplicidade e tolerância ao erro.
+- Após clicar no botão de aprofundar entrevista mantenha o quadro de feddback analitico no chat
 
-Privacidade Local
-Nenhum dado é armazenado.
-Sessão totalmente local.
 
-Fluxo Inicial
-Mensagem padrão:
-"Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal deste cargo?"
+Resultado final no Lovable: https://id-preview--1738705d-2e7e-4b23-8969-d915f8467a96.lovable.app/
 
-💡 Reflexão
+
+
+
+
+
+
+
+## Funcionalidades do Agente Simulador Inteligente de Entrevista
+
+
+## Objetivo
+O simulador ajuda candidatos a se prepararem para entrevistas de tecnologia por meio de uma experiência guiada, acessível e inclusiva.
+
+## Funcionalidades
+
+### Entrevista Guiada
+- Perguntas estruturadas sobre a vaga que está sendo criada.
+- Fluxo de perguntas em ordem lógica:
+  1. Título da vaga e propósito principal.
+  2. Senioridade esperada e justificativa.
+  3. Tecnologias, frameworks e práticas essenciais.
+  4. Soft skills mais valorizadas.
+- Regra: apenas uma pergunta por vez.
+
+### Resumo Analítico
+- Após todas as respostas e confirmação explícita do usuário, gera um resumo organizado.
+- O resumo sintetiza os pontos principais da vaga, facilitando análise e preparação.
+
+### Design Universal
+- Interface inclusiva e acessível para diferentes perfis de usuários.
+- Princípios aplicados:
+  - Equidade: mesma experiência para todos.
+  - Flexibilidade: diferentes formas de interação.
+  - Simplicidade: linguagem clara e intuitiva.
+  - Perceptibilidade: informações acessíveis em múltiplos formatos.
+  - Tolerância ao erro: reduz riscos de uso incorreto.
+  - Baixo esforço físico e cognitivo: uso fácil e confortável.
+
+### Privacidade Local
+- Nenhum dado é armazenado.
+- Toda a sessão acontece de forma totalmente local.
+
+## Fluxo Inicial
+O simulador sempre inicia com a mensagem:
+> "Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal deste cargo?"
+
+
+Reflexão
+
 O que funcionou bem?  
 A clareza do PRD revisado e estruturado em Markdown ajudou a organizar o simulador de forma prática e compreensível.
 
-O que não funcionou como esperado?  
-Alguns pontos exigiram ajustes de linguagem e formato para ficarem consistentes e fáceis de copiar.
+O que não funcionou como o esperado?  
+Alguns pontos exigiram ajustes de linguagem e formato para ficarem consistentes e fáceis de copiar, como o snippet em txt.
 
 O que aprendi sobre conversar com IAs?  
-Que a IA pode estruturar ideias de forma didática, mas precisa de instruções claras e detalhadas para alinhar ao objetivo.
+Aprendi que a IA pode estruturar ideias de forma didática, mas precisa de instruções claras e detalhadas para alinhar ao objetivo.
 
