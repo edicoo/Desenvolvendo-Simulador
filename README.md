@@ -4,14 +4,11 @@ Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding u
 
 PRD definido no Copilot Web:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-markdown
 
 PRD - Simulador Inteligente de Entrevista com Design Universal
 
 Objetivo do Produto
-Criar um simulador de entrevistas em linguagem natural para ajudar candidatos a se prepararem para processos seletivos na área de tecnologia. O sistema atuará como um entrevistador 
-técnico especializado, conduzindo perguntas estruturadas e fornecendo um resumo analítico ao final. A solução deve seguir princípios de Design Universal, garantindo que o máximo de 
-usuários possa utilizá-la com boa experiência, independentemente de suas habilidades, contextos ou limitações.
+Criar um simulador de entrevistas em linguagem natural para ajudar candidatos a se prepararem para processos seletivos na área de tecnologia. O sistema atuará como um entrevistador técnico especializado, conduzindo perguntas estruturadas e fornecendo um resumo analítico ao final. A solução deve seguir princípios de Design Universal, garantindo que o máximo de usuários possa utilizá-la com boa experiência, independentemente de suas habilidades, contextos ou limitações.
 
 Funcionalidades Principais
 - Condução de entrevistas simuladas com foco em vagas de tecnologia.
@@ -34,7 +31,6 @@ Regras de Interação
 - Iniciar sempre com: "Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal desse cargo?"
 - Garantir que a interação seja acessível e compreensível para diferentes perfis de usuários.
 
----
 
 Conceitos Explicados
 
@@ -85,19 +81,11 @@ Resultado final no Lovable: https://id-preview--1738705d-2e7e-4b23-8969-d915f846
 
 
 
-
-
-
-
-
 ## Funcionalidades do Agente Simulador Inteligente de Entrevista
-
-
 ## Objetivo
 O simulador ajuda candidatos a se prepararem para entrevistas de tecnologia por meio de uma experiência guiada, acessível e inclusiva.
 
 ## Funcionalidades
-
 ### Entrevista Guiada
 - Perguntas estruturadas sobre a vaga que está sendo criada.
 - Fluxo de perguntas em ordem lógica:
@@ -127,7 +115,7 @@ O simulador ajuda candidatos a se prepararem para entrevistas de tecnologia por 
 
 ## Fluxo Inicial
 O simulador sempre inicia com a mensagem:
-> "Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal deste cargo?"
+"Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga principal deste cargo?"
 
 
 Reflexão
